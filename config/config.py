@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "13987599"))
 API_HASH = getenv("API_HASH", "a9f080e51541184d38f557d69fd55f82")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("5424876436:AAEWyrUHWkbiCUZ4GKpIlglMnWVeKJHoRkU")
+BOT_TOKEN = getenv("BOT_TOKEN", "5424876436:AAEWyrUHWkbiCUZ4GKpIlglMnWVeKJHoRkU")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://rehan:rehan@cluster0.zezqf.mongodb.net/dbrehan?retryWrites=true&w=majority")
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001652316742"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "FTR stream)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "FTR stream")
 
 # Your User ID.
 OWNER_ID = list(
@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "a820f821bc3a4b9f8e3b60605dcc624b")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "abc4d985e4a34b45a24b6defc530f983")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
